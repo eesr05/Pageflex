@@ -1,0 +1,38 @@
+@media screen and (max-width: 800px) and(min-width: 300px) {
+	body {
+		background: white;
+		margin: 200px;
+	}
+
+	.container1 {
+		//background: white;
+		text-align: center;
+		padding: 0 250px 0;
+		text-justify: auto;
+	}
+
+	.meio {
+		.flex-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 100px;
+			width: 150px;
+			text-align: left;
+
+			.flex-child {
+				flex-direction: column;
+				padding: 20px 250px;
+				// display: inline-block;
+				// bottom: auto;
+				flex: 1;
+			}
+		}
+	}
+}
+
+@media screen and(max-width: 1024px) {
+	.meio {
+		background: pink;
+	}
+}
